@@ -9,7 +9,7 @@ import lombok.Setter;
 @Getter
 public class RequestLogUser {
 
-    private String username;
+    private String phone;
 
     @JsonProperty("transaction_type")
     private TransactionType transactionType;

@@ -15,7 +15,7 @@ public class UserLog {
     @Id
     private String id;
 
-    private String username;
+    private String phone;
 
     @JsonProperty("transaction_type")
     private TransactionType transactionType;

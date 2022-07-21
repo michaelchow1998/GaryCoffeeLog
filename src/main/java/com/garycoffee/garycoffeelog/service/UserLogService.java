@@ -1,8 +1,6 @@
 package com.garycoffee.garycoffeelog.service;
 
-import com.garycoffee.garycoffeelog.dto.RequestLogProduct;
 import com.garycoffee.garycoffeelog.dto.RequestLogUser;
-import com.garycoffee.garycoffeelog.model.ProductLog;
 import com.garycoffee.garycoffeelog.model.UserLog;
 import com.garycoffee.garycoffeelog.repo.UserLogRepo;
 import lombok.AllArgsConstructor;
