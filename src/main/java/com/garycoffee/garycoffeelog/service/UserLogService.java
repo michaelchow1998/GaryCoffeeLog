@@ -21,7 +21,7 @@ public class UserLogService {
 
     public String logUserBalanceChange(RequestLogUser req){
         UserLog userLog = new UserLog();
-        userLog.setUsername(req.getUsername());
+        userLog.setPhone(req.getPhone());
         userLog.setTransactionType(req.getTransactionType());
         userLog.setMessage(req.getMessage());
 
@@ -29,7 +29,7 @@ public class UserLogService {
         userLog.setModifiedDate(now);
         userLogRepo.insert(userLog);
 
-        return "User "+ req.getUsername() +": account balance change logged in Db";
+        return "User "+ req.getPhone() +": account balance change logged in Db";
     }
 
     public List<UserLog> fetchAllUserLog(){
