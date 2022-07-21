@@ -1,0 +1,7 @@
+server:
+  port: $PORT
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://root:zx6666662@garycoffeelog.aknu3.mongodb.net/garyCoffeeLog
