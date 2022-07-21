@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.Date;
 
 @Data
-@Document("OrderLog")
+@Document("UserLog")
 public class UserLog {
 
     @Id
